@@ -17,7 +17,7 @@ In my cluster I have deployed an Nginx Ingress Controller and I will use the hos
 
 public internet > ingress-controller > OpenSearch Dashboard > OpenSearch Cluster
 
-To achive this I have written a ingress resource file now we will deploy this in your cluster. 
+To achive this I have written a ingress resource file now deploy this into your cluster. 
 Run <kubectl apply -f ingress.yaml> and done. 
 
 Hit the browser by typing "opensearch.eastnetic.com" and boom! You will see the login page of the opensearch cluster. Please note that for on-prem cluster you need to add a host entry in your host file mentioning your ingress controller ip to the fqdn of opensearch. In my case it is
