@@ -18,7 +18,7 @@ Now deploy the the StatefulSet in the cluster. <kubectl apply -f statefulsets.ya
 
 Now wait sometime so that the pods come up. After all the pods become running you can verify the configuration by running a curl command. 
 
-Go to inside the pod by typing <kubectl exec -it <pod-name> -n <namespace> -- bash>
+Go inside the pod by typing <kubectl exec -it <pod-name> -n <namespace> -- bash>
 Then type <curl -XGET https://localhost:9200 -u 'admin:admin' --insecure>
 
 it will give a json output like the below one. 
@@ -43,4 +43,4 @@ it will give a json output like the below one.
 }
 #####
 
-If you get this output then voila! Your OpenSearch Server has successfully set up as a StatefulSet in Kubernetes. Now I will deploy the OpenSearch Dashboard to access the OpenSearch Cluster. 
+If you get this output then voila! Your OpenSearch Server has successfully set up as a StatefulSet in Kubernetes. Now I will deploy the OpenSearch Dashboard to access the OpenSearch Cluster. Head over to the other repository named OpenSearch-Dashboard
