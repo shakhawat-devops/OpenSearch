@@ -1,0 +1,18 @@
+---
+# Source: opensearch-dashboards/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: opensearch-dashboards-service
+  labels:
+    app.kubernetes.io/name: opensearch-dashboards
+  namespace: opensearch
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    protocol: TCP
+    name: http
+    targetPort: 5601
+  selector:
+    app: opensearch-dashboards
