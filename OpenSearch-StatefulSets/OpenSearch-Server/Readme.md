@@ -1,6 +1,6 @@
-######## OpenSearch Installation in Kubernetes ########
+## OpenSearch Installation in Kubernetes ##
 
-## This Project is done by Md. Shakhawat Hossain Rayhan on 11 December 2021 at 3.30 AM ##
+
 
 In this github repo you will find the yaml files to install OpenSearch in Kubernetes. 
 I will install a 3 node OpenSearch cluster as a StateFull Set and will NFS as my storage provisioner

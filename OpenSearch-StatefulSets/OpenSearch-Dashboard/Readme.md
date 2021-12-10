@@ -1,4 +1,4 @@
-######## OpenSearch Dashboard in Kubernetes ########
+## OpenSearch Dashboard in Kubernetes ##
 Congratulations! You have instlled the OpenSearch cluster and Now I will show how to deploy the 
 Dashboard to view and access the cluster. 
 Let's begin
